@@ -1,0 +1,114 @@
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    position: static;
+    width: 100%;
+    height: 50px;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 20px 0px 20px 20px;
+    background: rgb(18, 103, 160); 
+    font-size: 30px;
+    color: white;
+}
+
+.navButton:hover{
+    display: inline-block;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.sideNav {
+    position: absolute;
+    width: 0px;
+    height: 120%;
+    top: 0;
+    left: 0;
+    background: rgb(18, 103, 160);
+    padding-top: 60px;
+    transition: 0.5s;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.sideNav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 15px;
+}
+
+.sideNav a:hover {
+    background-color: rgb(17, 77, 117,0.5);
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+.user {
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color:  rgb(123, 173, 206);
+}
+
+.user .welcome {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.user .userInfor {
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.user #logOut {
+    float: right;
+    background-color: rgb(214, 169, 47);
+    border: 1px solid rgb(214, 169, 47);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 30px;
+    box-shadow: 0px 5px 0px grey;
+}
+.user #logOut:hover {
+    background-color: rgb(182, 144, 41);
+}
+.user #logOut:active {
+    background-color: rgb(182, 144, 41);
+    box-shadow: 0px 1px 0px grey;
+    transform: translateY(4px);
+
+}
+.user #userName {
+    font-size: 20px;
+    color: white;
+}
+
+.main {
+    position: static;
+    background-color: white;
+    border: 2px solid rgb(17, 77, 117,0.5);
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.bottom {
+    position: static;
+    background-color: rgb(18, 103, 160);
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+
